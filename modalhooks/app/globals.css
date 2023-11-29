@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 2vh 0 0 2vh;
+  background: #f0f1f5;
+}
+
+main {
+  flex-grow: 1;
+  min-height: 70vh;
+  overflow-y: auto;
+}

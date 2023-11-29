@@ -1,0 +1,52 @@
+.gridContainer {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    width: auto;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #333;
+    font-size: 1.25rem;
+  }
+
+  .titleModal {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+    font-size: 1.25rem;
+  }
+  
+  
+  .option {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .optionModal {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #1074fc;
+  }
+
+  .pItem {
+    margin-bottom: 5px;
+  }
+
+  
+  
