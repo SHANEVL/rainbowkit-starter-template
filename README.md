@@ -7,7 +7,7 @@ First, add the package-json dependencies:
 ```bash
 npm install
 ```
-Secondly, run the development server:
+Secondly, navigate to folder:
 
 ```bash
 cd [projectname]
