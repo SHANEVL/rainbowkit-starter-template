@@ -1,5 +1,9 @@
 This is a [Next.js 14.0.3](https://nextjs.org/) project bootstrapped with [`npx create-next-app@latest`](https://nextjs.org/docs/getting-started/installation).
 
+# Overview
+
+This repository serves as both a template and a demonstration for anyone interested in building a decentralized application (Dapp) in the cryptocurrency domain, particularly using the latest Next.js app router system. It incorporates key npm packages like RainbowKit and Wagmi to streamline the integration of wallet connectivity features.
+
 ## Getting Started with each project
 
 First, add the package-json dependencies:
@@ -43,7 +47,8 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Misc
-Because I used many times the same `<ConnectButton/>`, it can sometimes respond a bit buggy because it opens the connection for all. I could solve this by making a unique folder for each feature (no time as of now). This is just a template for people, just like me, who are trying to implement a walletconnect feature in the newest nextjs app router system. Feedback is always welcome! 
+
+Please note that the application might exhibit some buggy behavior due to the use of multiple ConnectButton components. This issue arises from the simultaneous operation of these components, which can affect the application's responsiveness and stability. Efforts have been made to mitigate this by structuring the code into separate folders, but some irregularities might still occur. 
 
 ## Deploy on Vercel
 
